@@ -1,13 +1,14 @@
-import React,{Component} from "react"
-
-class About extends Component{
-    render(){
-        return(
-            <div>
-                about
-            </div>
-        )
-    }
+import React, { Component } from "react";
+import { AboutWrapper, TopWraper, BotWraper } from "./About.styled";
+class About extends Component {
+  render() {
+    return (
+      <AboutWrapper>
+        <TopWraper></TopWraper>
+        <BotWraper></BotWraper>
+      </AboutWrapper>
+    );
+  }
 }
 
-export default About
+export default About;
