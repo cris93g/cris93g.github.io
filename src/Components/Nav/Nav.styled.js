@@ -6,6 +6,7 @@ export const StyledNav = styled.nav`
     background:#1f1f1f;
     height: 10vh;
     width:100vw;
+   
 `
 export const StyledLeftNav = styled.div`
     height:100%;
@@ -27,7 +28,10 @@ export const StyledRightNav = styled.div`
 	justify-content: space-around;
 	align-items: center;
     align-content: center;
-    
+    a{
+         color: inherit;
+         text-decoration: none;
+    }
    
     
 `
