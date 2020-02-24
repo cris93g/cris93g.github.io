@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
-import {Main_nav} from "./Nav.styled"
+import {StyledNav,StyledLeftNav,StyledRightNav} from "./Nav.styled"
 class Nav extends Component {
 	render() {
-		return <div><Main_nav>
-            <div>
-                <p>logosdasdad</p>
-            </div>
-            </Main_nav></div>;
+		return <div>
+        <StyledNav>
+            <StyledLeftNav>
+                <div>Logo</div>
+            </StyledLeftNav>
+            <StyledRightNav>
+                    <p>Home</p>
+                    <p>about</p>
+                    <p>projects</p>
+            </StyledRightNav>
+        </StyledNav>
+        </div>;
 	}
 }
 
