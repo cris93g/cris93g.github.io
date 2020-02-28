@@ -5,6 +5,8 @@ import {
   HomeWrapper,
   PicWrapper
 } from "./Home.styled";
+
+let well;
 const Home = () => {
   var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -15,6 +17,7 @@ const Home = () => {
     this.tick();
     this.isDeleting = false;
   };
+  
 
   TxtRotate.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
